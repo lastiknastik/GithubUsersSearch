@@ -1,16 +1,14 @@
 import "./App.css";
-import SearchBar from "./components/searchBar";
-import UsersList from "./components/usersList";
+import Main from "./pages/main";
 
 function App() {
-  return (
-    <div className="App">
-      <div className="App-container">
-        <SearchBar />
-        <UsersList />
-      </div>
-    </div>
-  );
+    return (
+        <div className="App">
+            <div className="App-container">
+                <Main />
+            </div>
+        </div>
+    );
 }
 
 export default App;
